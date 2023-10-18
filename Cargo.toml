@@ -73,6 +73,11 @@ required-features = ["rcgen-ca", "rustls-client"]
 name = "openssl"
 required-features = ["openssl-ca", "rustls-client"]
 
+[[example]]
+name = "failures"
+required-features = ["rcgen-ca", "rustls-client"]
+
+
 [[test]]
 name = "openssl_ca"
 required-features = ["decoder", "openssl-ca", "native-tls-client", "rustls-client"]
